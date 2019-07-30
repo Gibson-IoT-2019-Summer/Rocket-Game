@@ -1,0 +1,27 @@
+#password-check, #passwordc-check {
+    display:none;
+}
+
+.valid {
+    color: green;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.valid:before {
+    position: relative;
+    left: -5px;
+    content: "✔";
+}
+
+.invalid {
+    color: red;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.invalid:before {
+    position: relative;
+    left: -5px;
+    content: "✖";
+}
